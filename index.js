@@ -12,18 +12,18 @@ const clicouCalcular= (evento)=> {
     let resultado2= metros / 1000;
 
     mensagem1= `--Equivalência--`;
-    mensagem2= `${resultado1}cm`
-    mensagem3= `${metros}m`
-    mensagem4= `${resultado2}km`
+    mensagem2= `${resultado1}cm`;
+    mensagem3= `${metros}m`;
+    mensagem4= `${resultado2}km`;
 
     const campoResultado1= document.getElementById('resultado1');
-    campoResultado1.innerHTML = mensagem1;
+    campoResultado1.innerHTML= mensagem1;
     const campoResultado2= document.getElementById('resultado2');
-    campoResultado2.innerHTML = mensagem2;
+    campoResultado2.innerHTML= mensagem2;
     const campoResultado3= document.getElementById('resultado3');
-    campoResultado3.innerHTML = mensagem3;
+    campoResultado3.innerHTML= mensagem3;
     const campoResultado4= document.getElementById('resultado4');
-    campoResultado4.innerHTML = mensagem4;
+    campoResultado4.innerHTML= mensagem4;
 };
 
 const iniciar= ()=> {
