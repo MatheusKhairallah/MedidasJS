@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+}
+
+form * {
+    margin: 5px;
+}
+
+#resultado1, #resultado2, #resultado3, #resultado4 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 1.25em;
+}
